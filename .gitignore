@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/*
+!data/README.md
+software/polar/data/
+
+# The CAD assembly is uploaded as a GitHub release asset because it exceeds
+# GitHub's regular 100 MB per-file limit.
+hardware/cad/POLAR-CAD-Assembly.step
