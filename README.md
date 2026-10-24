@@ -52,6 +52,6 @@ CubOS remains the source of truth for physical instrument coordination. This rep
 
 The software repository includes automated tests and measured validation notes. Hardware-specific calibration, physical Pi deployment, and experimental accuracy have limits documented in the validation file. Raw measurement data are not present in the source folder used to assemble this repository; see [`data/README.md`](data/README.md).
 
-## Citation and license
+## License and citation
 
-Citation metadata and a software/hardware license should be selected before public release. Once a publication or DOI is available, add it here and to a `CITATION.cff` file.
+This repository is released under the [MIT License](LICENSE). Citation metadata is intentionally left open so it can be completed in Zenodo when the repository is archived and a DOI is issued.
