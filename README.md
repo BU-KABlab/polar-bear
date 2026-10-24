@@ -42,7 +42,7 @@ The ring-light sketch requires the Arduino `Adafruit_NeoPixel` library. Pin assi
 
 ![Polar Bear electronics diagram](hardware/electronics/circuit-diagram.png)
 
-The CAD assembly is larger than GitHub's regular 100 MB file limit. It is distributed as a repository release asset and verified by the checksum in `hardware/cad/POLAR-CAD-Assembly.step.sha256`.
+The uncompressed CAD assembly is larger than GitHub's regular 100 MB file limit. A gzip-compressed copy is versioned at `hardware/cad/POLAR-CAD-Assembly.step.gz` so repository and Zenodo snapshots contain the complete assembly. The uncompressed STEP file is also distributed as a GitHub release asset. Both forms are verified by the checksum in `hardware/cad/POLAR-CAD-Assembly.step.sha256`.
 
 ## CubOS integration
 
